@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 head1{
     /* width: 100%; */
@@ -9,12 +10,20 @@ head1{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    background-attachment: fixed;
+    /* position: fixed; */
+    /* margin-top: 0;
+    padding: 0; */
 }
 .heading{
-    width: 30%;
+    width: 45%;
+}
+
+.heading img{
+    width: 70%;
     display: flex;
     align-items: center;
-
+   justify-content: center;
     flex-direction: column;
 }
 .heading3{
@@ -25,7 +34,7 @@ head1{
 .heading1{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
 }
 .img1 {
     
@@ -39,7 +48,7 @@ head1{
 }
 .main1{
     width: 100%px;
-    height: 60px;
+    height: 85px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,26 +57,27 @@ head1{
 .img1 img {
     width: 100%;
 }
-.img3{
-    background-color: red;
-    /* height: 300px; */
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
+
 .mainimg{
     /* height: 300px; */
     display: flex;
     flex-direction: row;
     margin-top: 80px;
-    /* align-items: center;
-    justify-content: center; */
+    background-color: rgb(209, 206, 200);
+    align-items: center;
+    justify-content: center;
     
 }
 .img3 {
-    width: 100%;
-   
+    background-color: rgb(210, 28, 28);
+    /* height: 300px; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -144;
+    width: 50%;
+   margin-right: -114px;
     height: 365px;
    display: flex;
    flex-direction: column;
@@ -75,18 +85,31 @@ head1{
 
 }
 .img2{
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 123px;
+    background-color: aliceblue;
+    position: relative;
+    left: 61px;
+    padding: 11px;
+
+    
+
+}
+.img2 img{
+    width: 600px;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: white(186, 169, 169);
+    /* position: relative; */
+   
 
 }
 .img4{
-    width: 100%;
+    width: 50%;
     background-color: rgb(8, 152, 152);
-    height: 303px;
+    height: 451px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,22 +119,33 @@ head1{
 }
 .main2{
     width: 100%px;
-    height: 60px;
+    /* height: 60px; */
     display: flex;
     flex-direction: row;
     align-items: center;
     
 
+    
+}
+.img5{
+    
+    position: relative;
+    left: -57px;
+    padding: 17px;
+    background-color: white;
+
 }
 .img6{
-    width: 100%;
+    /* width: 100%; */
     /* height: 500px; */
     background-color: aliceblue;
-
+    position: relative;
+    left: 61px;
+    padding: 11px;
 }
 .img6 img{
     width: 600px;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -122,7 +156,7 @@ head1{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 122px;
+    
     
 }
 .hov {
@@ -143,4 +177,17 @@ head1{
 
 .mk{
     width: 80%;
+}
+.border{
+    border: 2.5 solid red;
+}
+.border:hover{
+   border: 2.5px solid red; 
+   background-color: red;
+}
+.mky{
+    color: red;
+    font-size: 78px;
+    margin-top: -81px;
+
 }
