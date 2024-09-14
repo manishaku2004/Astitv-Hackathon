@@ -12,8 +12,6 @@ head1{
     flex-direction: row;
     background-attachment: fixed;
     /* position: fixed; */
-    /* margin-top: 0;
-    padding: 0; */
 }
 .heading{
     width: 45%;
